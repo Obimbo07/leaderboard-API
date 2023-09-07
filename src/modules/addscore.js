@@ -1,4 +1,4 @@
-const addscore = async (newData) => {
+const addScore = async (newData) => {
   const scoreURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nHUxd8ftxajfHTTdDpRl/scores/';
   const requestBody = JSON.stringify(newData);
 
@@ -18,4 +18,4 @@ const addscore = async (newData) => {
   }
 };
 
-export default addscore;
+export default addScore;
