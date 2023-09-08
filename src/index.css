@@ -21,15 +21,16 @@ body {
   padding: 36px;
   width: 300px;
 }
+
 .header-title {
   color: #fff;
   font-size: 40px;
 }
 
 .recent-scores {
- background-color: #424242b6;
- color: #fff;
- padding: 10px;
+  background-color: #424242b6;
+  color: #fff;
+  padding: 10px;
 }
 
 #score-display {
