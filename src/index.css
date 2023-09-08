@@ -5,7 +5,6 @@ body {
 
 .centered-section {
   width: 100%;
-  max-width: 800px;
   min-height: 400px;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
@@ -13,7 +12,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-radius: 25%;
   background-image: url(/src/images.jpg);
 }
 
@@ -66,4 +64,10 @@ body {
 #score-form {
   background-color: rgba(46, 46, 46, 0.765);
   padding: 10px;
+  width: 80%;
+}
+
+#submit-btn {
+  align-self: end;
+  width: fit-content;
 }
