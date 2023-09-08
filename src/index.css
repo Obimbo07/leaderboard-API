@@ -6,7 +6,7 @@ body {
 }
 
 #title {
-  color: #ffffff;
+  color: #fff;
   font-size: 40px;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 #recent-scores {
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   font-size: 25px;
   background-color: #000000b3;
@@ -80,5 +80,5 @@ body {
 }
 
 .form-title {
-  color: #ffffff;
+  color: #fff;
 }
