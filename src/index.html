@@ -7,12 +7,12 @@
 </head>
 <body>
     <header>
-        <h2>Leaderboard</h2>
+        <h2 id="title">Leaderboard</h2>
     </header>
     <section class="centered-section">
         <div class="score-section">
             <div class="section-header">
-             <h3>Recent Scores</h3>
+             <h3 id="recent-scores">Recent Scores</h3>
              <button id="refresh-btn">Refresh</button>
             </div>
           <div id="score-display">
@@ -25,7 +25,7 @@
 
         <div id="form-section">
             <div id="score-form">
-                <h3>Add your Score</h3>
+                <h3 class="form-title">Add your Score</h3>
                 <form id="form" action="https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nHUxd8ftxajfHTTdDpRl/scores/" method="POST">
                     <input type="text"  placeholder="Your name" name="name" id="name">
                     <input type="number" placeholder="Your score" name="score" id="score">

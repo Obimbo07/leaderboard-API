@@ -1,7 +1,13 @@
-* {
+body {
   position: relative;
   left: 4%;
   top: 5%;
+  background-image: url('./billiards.jpg');
+}
+
+#title {
+  color: #ffffff;
+  font-size: 40px;
 }
 
 .centered-section {
@@ -15,6 +21,7 @@
   flex-direction: row;
   justify-content: space-between;
   border-radius: 25%;
+  background-image: url('images.jpg');
 }
 
 .score-section {
@@ -34,14 +41,44 @@
   align-items: center;
 }
 
+#score-form {
+  background-color: #0c85308e;
+  width: 70%;
+  padding: 10px;
+
+}
+
 .section-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-radius: 17%;
+  height: 10%;
+  width: 100%;
+}
+
+#score-display {
+ padding: 10px;
+ border-radius: 15%;
+ background-color: #fffefeed;
+
 }
 
 #form {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  
+}
+
+#recent-scores {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: #000000b3;
+  padding: 8px;
+}
+
+.form-title {
+  color: #ffffff;
 }
