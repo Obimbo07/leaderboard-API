@@ -13,9 +13,12 @@
         <div class="score-section">
             <div class="section-header">
              <h3>Recent Scores</h3>
-             <input type="button" value="Refresh">
+             <button id="refresh-btn">Refresh</button>
             </div>
           <div id="score-display">
+            <ul id="score-list">
+
+            </ul>
 
           </div>
         </div>
@@ -23,10 +26,10 @@
         <div id="form-section">
             <div id="score-form">
                 <h3>Add your Score</h3>
-                <form class="form" action="" method="post">
-                    <input type="text" name="name" id="participant-name">
-                    <input type="number" name="score" id="point-score">
-                    <input type="button" value="submit">
+                <form id="form" action="https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nHUxd8ftxajfHTTdDpRl/scores/" method="POST">
+                    <input type="text"  placeholder="Your name" name="name" id="name">
+                    <input type="number" placeholder="Your score" name="score" id="score">
+                    <input type="submit" value="submit">
                 </form>
             </div>
         </div>

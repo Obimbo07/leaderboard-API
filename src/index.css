@@ -1,10 +1,7 @@
 * {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  position: relative;
+  left: 4%;
+  top: 5%;
 }
 
 .centered-section {
@@ -17,6 +14,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-radius: 25%;
 }
 
 .score-section {
@@ -42,7 +40,7 @@
   align-items: center;
 }
 
-.form {
+#form {
   display: flex;
   flex-direction: column;
   gap: 12px;
