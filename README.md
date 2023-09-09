@@ -66,6 +66,14 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo Link](https://obimbo07.github.io/leaderboard-API/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- GETTING STARTED -->
 
@@ -140,7 +148,7 @@ To run tests, run the following command:
 👤 **Author1**
 
 - GitHub: [@Obimbo07](https://github.com/Obimbo07)
-- Twitter: [@Austine](https://twitter.com/austsine)
+- Twitter: [@Austine](https://twitter.com/austsine_)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/austin-obimbo-9a613623a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
